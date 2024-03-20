@@ -24,7 +24,12 @@ body{
     .active {
         background-color: yellowgreen;
     }
-
+    .SDE {
+        text-align: center;
+    }
+    .NDE {
+        text-align: center;
+    }
 
 
 }
