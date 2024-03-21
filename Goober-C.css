@@ -9,7 +9,7 @@ body{
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: #333;
+        background-color: darkblue;
     }
     & li a {
         display: block;
@@ -18,8 +18,8 @@ body{
         padding: 14px 14px;
         text-decoration: none;
     }
-    & li & a:hover {
-        background-color: #111;
+     li a:hover:not(.active) {
+        background-color: lightcoral;
     }
     .active {
         background-color: yellowgreen;
