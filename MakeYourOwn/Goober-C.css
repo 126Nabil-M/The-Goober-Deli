@@ -1,6 +1,6 @@
 body{
 
-    background-image: url("https://media.gettyimages.com/id/165793418/vector/seamless-fast-food-background.jpg?s=1024x1024&w=gi&k=20&c=RQ_xClRZ_MOf-u6WsJQDLAdT3WP0m5FM1vWOkEa74lY=");
+    background-color: lightblue;
     color: orangered;
     text-align: center;
     font-size: x-large;
@@ -65,6 +65,12 @@ body{
     }
     .Choice-Nav{
         background-color: orangered;
+    }
+    .Declaration{
+        font-size: xx-large;
+        border: 5px solid blue;
+        box-sizing: border-box;
+        background-color: lightcyan;
     }
 
 

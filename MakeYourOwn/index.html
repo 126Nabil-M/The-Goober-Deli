@@ -5,14 +5,15 @@
     <title>Make Your Own</title>
     <link rel="stylesheet" href="Goober-C.css">
     <script src="Goober-J.js"></script>
+
 </head>
 <body>
 
+<p class="Declaration">Welcome To The Make Your Own. Where "we hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness."</p>
 
 
-
-<form class="FreedomBread">
-    <div> Bread:</div>
+<form>
+    <div class="FreedomBread"> Bread:</div>
     <label for="Sourdough">Sourdough</label>
     <input type="Radio" id="Sourdough" name="Sourdough"><br>
     <label for="Sesame Bun">Sesame Bun</label>
@@ -52,40 +53,40 @@
 
     <div class="FreedomCheese"> Cheese:</div>
     <label for="Pepper Jack">Pepper Jack</label>
-    <input type="Radio" id="Pepper Jack" name="Pepper Jack"><br>
+    <input type="Checkbox" id="Pepper Jack" name="Pepper Jack"><br>
     <label for="American">American</label>
-    <input type="Radio" id="American" name="American"><br>
+    <input type="Checkbox" id="American" name="American"><br>
     <label for="Cheddar">Cheddar</label>
-    <input type="Radio" id="Cheddar" name="Cheddar"><br>
+    <input type="Checkbox" id="Cheddar" name="Cheddar"><br>
     <label for="Parmesan">Parmesan</label>
-    <input type="Radio" id="Parmesan" name="Parmesan"><br>
+    <input type="Checkbox" id="Parmesan" name="Parmesan"><br>
     <label for="Gouda">Gouda</label>
-    <input type="Radio" id="Gouda" name="Gouda"><br>
+    <input type="Checkbox" id="Gouda" name="Gouda"><br>
     <label for="Mozzarella">Mozzarella</label>
-    <input type="Radio" id="Mozzarella" name="Mozzarella"><br>
+    <input type="Checkbox" id="Mozzarella" name="Mozzarella"><br>
     <label for="Muenster">Muenster</label>
-    <input type="Radio" id="Muenster" name="Muenster"><br>
+    <input type="Checkbox" id="Muenster" name="Muenster"><br>
     <label for="NoCheese">None</label>
-    <input type="Radio" id="NoCheese" name="None"><br>
+    <input type="Checkbox" id="NoCheese" name="None"><br>
     <br>
 
     <div class="FreedomToppings"> Toppings:</div>
     <label for="Lettuce">Lettuce</label>
-    <input type="Radio" id="Lettuce" name="Lettuce"><br>
+    <input type="Checkbox" id="Lettuce" name="Lettuce"><br>
     <label for="Tomato">Tomato</label>
-    <input type="Radio" id="Tomato" name="Tomato"><br>
+    <input type="Checkbox" id="Tomato" name="Tomato"><br>
     <label for="Onion">Onion</label>
-    <input type="Radio" id="Onion" name="Onion"><br>
+    <input type="Checkbox" id="Onion" name="Onion"><br>
     <label for="Jalapenos">Jalapenos</label>
-    <input type="Radio" id="Jalapenos" name="Jalapenos"><br>
+    <input type="Checkbox" id="Jalapenos" name="Jalapenos"><br>
     <label for="Black Olive">Black Olive</label>
-    <input type="Radio" id="Black Olive" name="Black Olive"><br>
+    <input type="Checkbox" id="Black Olive" name="Black Olive"><br>
     <label for="Cucumber">Cucumber</label>
-    <input type="Radio" id="Cucumber" name="Cucumber"><br>
+    <input type="Checkbox" id="Cucumber" name="Cucumber"><br>
     <label for="Avacado">Avacado</label>
-    <input type="Radio" id="Avacado" name="Avacado"><br>
+    <input type="Checkbox" id="Avacado" name="Avacado"><br>
     <label for="None">None</label>
-    <input type="Radio" id="None" name="None"><br>
+    <input type="Checkbox" id="None" name="None"><br>
     <br>
 
     <div class="FreedomSauce"> Condiments:</div>
@@ -107,17 +108,21 @@
     <input type="Radio" id="No Condiments" name="None"><br>
 </form>
 
-<h1 class="Choice-Nav"><div>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</div></h1>
+<br>
+
+<button onclick=”Save()”>
+    Click Here To Save Current Order!
+</button>
+
+
+<h1 class="Choice-Nav"><div>---------------------------------------------------------------------------------------</div></h1>
 <ul id="SubType">
-    <li><a href="MakeYourOwn">Mahdi-Made Sammich</a></li>
+    <li><a href="The-Goober-Deli/index">Mahdi-Made Sammich</a></li>
     <li><a href="BonitaBorgors">Bonita Borgors</a></li>
     <li><a href="CrabbyBorgor">Crabby Borgors</a></li>
     <li><a href="CrabbyPizza">Crabby Pizza</a></li>
-    <li><a href="Enchiladas">Enchiladas</a></li>
-    <li><a href="HoloLoaf">HoloLoaf</a></li>
     <li><a href="JellyBorgor">Jelly Borgor</a></li>
     <li><a href="PipsqueakBorger">Pipsqueak Borgor</a></li>
-    <li><a href="ChumFricasse">Chum Fricasse</a></li>
     <li><a href="Dessert">Dessert</a></li>
     <li><a href="Drinks">Drinks</a></li>
 </ul>

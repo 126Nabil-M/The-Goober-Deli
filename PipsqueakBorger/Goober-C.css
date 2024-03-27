@@ -1,0 +1,54 @@
+body {
+    background-image: url("https://media.gettyimages.com/id/165793418/vector/seamless-fast-food-background.jpg?s=1024x1024&w=gi&k=20&c=RQ_xClRZ_MOf-u6WsJQDLAdT3WP0m5FM1vWOkEa74lY=");
+    color: yellow;
+
+
+    & li {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: darkblue;
+    }
+
+    & li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 14px;
+        text-decoration: none;
+        font-family: Algerian;
+        font-size: x-large;
+    }
+
+    & li a:hover:not(.active) {
+        background-color: lightcoral;
+    }
+    .Pippy {
+        font-size: xxx-large;
+        background-color: darkblue;
+        width: 1886px;
+        height: 130px;
+        border: 5px solid blue;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .Ingredients {
+        font-size: xxx-large;
+        background-color: darkblue;
+        width: 1000px;
+        height: 520px;
+        border: 5px solid blue;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .Image{
+        float: right;
+        width: 800px;
+        height: 520px;
+    }
+
+
+
+
+}
