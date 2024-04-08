@@ -1,24 +1,28 @@
-<body>
-
 function removeMeat() {
-    Saver
+    let meat = false;
 }
-function removeLettuce() {
-    Saver
-}
-function removeCheese() {
-    Saver
-}
+
 function removeSauce() {
-    Saver
+    let sauce = false;
+
 }
+
+function removeLettuce() {
+    let lettuce = false;
+}
+
 function removePickles() {
-    Saver
+    let pickles = false;
 }
+
 function removeBread() {
-    Saver
+    let bread = false;
+}
+
+function removeCheese() {
+    let cheese = false;
 }
 function order() {
-    Saver
+    localStorage.setItem(PipsqueakBurger, Complete)
 }
-</body>
+

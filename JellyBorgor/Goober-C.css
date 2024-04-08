@@ -13,7 +13,6 @@ body {
 
     & li a {
         display: block;
-        position: fixed;
         color: white;
         text-align: center;
         padding: 14px 14px;
@@ -25,6 +24,7 @@ body {
     & li a:hover:not(.active) {
         background-color: lightcoral;
     }
+
     .Pippy {
         font-size: xxx-large;
         background-color: darkblue;
@@ -34,6 +34,7 @@ body {
         box-sizing: border-box;
         text-align: center;
     }
+
     .Ingredients {
         font-size: xxx-large;
         background-color: darkblue;
@@ -43,13 +44,13 @@ body {
         box-sizing: border-box;
         text-align: center;
     }
-    .Image{
+
+    .jellyburger {
         float: right;
         width: 800px;
         height: 520px;
     }
-
-
-
-
 }
+
+
+

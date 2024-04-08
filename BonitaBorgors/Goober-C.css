@@ -13,7 +13,6 @@ body {
 
     & li a {
         display: block;
-        position: fixed;
         color: white;
         text-align: center;
         padding: 14px 14px;
@@ -43,7 +42,7 @@ body {
         box-sizing: border-box;
         text-align: center;
     }
-    .Image{
+    .Bonita{
         float: right;
         width: 800px;
         height: 520px;
